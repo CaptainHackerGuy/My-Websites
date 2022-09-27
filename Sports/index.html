@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <script src="collectdata.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#docs">Docs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+        </div>
+        <div class="sec1" id="home">
+            <div class="sec1-1">
+                <h1>Sports Wiki</h1>
+                <h3>Welcome!</h3>
+            </div>        
+            <div class="sec1-2">
+                <img src="images/sports.jpeg" alt="">
+            </div>
+        </div>
+        <div class="sec2">
+            <div class="sec2-heading" id="docs">
+                <h2>Top 3 most Popular Sports</h2>
+            </div>
+            <div class="sec2-content">
+                <div class="card" style="width: 33%;">
+                    <img src="images/football1.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                    <div class="card-body">
+                      <h5 class="card-title">#1 Football</h5>
+                      <p class="card-text">Football is the 1<sup>st </sup>Most popular sports in the World and is followed by 3.5B People!</p>
+                      <a href="football-details.html" class="btn btn-primary">More Info</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 33%">
+                    <img src="images/wc-cricekt.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                    <div class="card-body">
+                      <h5 class="card-title">#2 Cricket</h5>
+                      <p class="card-text">Cricket is the 2<sup>nd </sup>Most popular sports in the World and is followed by 2.5B People!</p>
+                      <a href="cricket-details.html" class="btn btn-primary">More Info</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 33%">
+                    <img src="images/basketball1.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                    <div class="card-body">
+                      <h5 class="card-title">#3 Basketball</h5>
+                      <p class="card-text">Basketball is the 3<sup>rd </sup>Most popular sports in the World and is followed by 2B People!</p>
+                      <a href="basketbal-details.html" class="btn btn-primary">More Info</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="sec3" id="contact">
+            <div class="sec3-heading">
+                <h2>Contact Us</h2>
+            </div>
+            <form class="contact">
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>  
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="CollectData()">Submit</button>
+              </form>
+        </div>
+    </div>
+</body>
+</html>

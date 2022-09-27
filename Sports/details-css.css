@@ -1,0 +1,17 @@
+body{
+    padding: 0;
+    margin: auto;
+    padding: 30px 40px;
+}
+
+.sec2-items{
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+}
+
+.rules{
+    padding-top: 30px 30px 30px 30px 30px;
+    background-color: white;
+    margin: auto;
+}
