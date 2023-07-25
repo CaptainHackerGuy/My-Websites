@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Key?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form onsubmit="sendEmail(); reset(); return false;">
+        <h3>Enter Your Code Here</h3>
+        <input type="text" id="name" placeholder="Your KEY" required>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+    <script>
+        function sendEmail(){
+            if(document.getElementById("name").value == "28pW7er"){
+                alert("Thank You! Key Activated Successfully.")
+            }else{
+                alert("Invalid Key")
+            }
+        }
+    </script>
+</body>
+</html>

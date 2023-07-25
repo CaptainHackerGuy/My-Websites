@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Enter Your Code Here</h3>
+            <input type="text" id="name" placeholder="Your Name/Roblox USERNAME" required>
+            <input type="text" id="code" placeholder="You KEYCODE" required>
+            <input type="email" id="email" placeholder="Enter Your Email ID" required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        email = document.getElementById("email").value
+        name = document.getElementById("name").value
+        function sendEmail(){
+            if(document.getElementById("code").value == "YzW78zW27"){
+                    Email.send({
+                    SecureToken: "c4a1e4bc-4775-4c4a-8230-75858e5b039f",
+
+                    To : document.getElementById("email").value,
+                    From : "cattishvillageteam@gmail.com",
+                    Subject : "Thank You For Purchasing A Key!",
+                    Body : `Hello ${document.getElementById("name").value}` + "<br/> Thank you for purchasing a key," + "<br/> We are pleasured to see that you have either bought/received an ADMIN key!" + "<br/>The key is as follows: 28pW7er," + "<br/> Enter This at Enter this at https://prarambhpattanaik.com/sendemailcode/secretfolder/index.html" + "<br/>Thank You, Cattish Village"
+                }).then(
+                message => alert(message)
+                );
+            }else{
+                alert("Invalid Key!")
+            }
+        }
+    </script>
+</body>
+</html>

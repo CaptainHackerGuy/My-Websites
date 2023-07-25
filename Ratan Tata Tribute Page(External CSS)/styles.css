@@ -1,0 +1,37 @@
+body{
+    margin-left:10%;
+    margin-right:10%;
+    padding:20px;
+    font-family:cursive;
+    background:#eee;
+}
+.container{
+    background:grey;
+    padding:20px
+}
+.header{
+    padding:20px;
+    background-color: white;
+    text-align: center;      
+}
+.header h1{
+    font-size: 40px;
+    color: rgb(3, 81, 82);
+}
+.header h3{
+    font-size: 25px;
+    color:rgb(0,0,141);
+}
+.card{
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+#picture img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+h2{
+    color: rgb(0,128,128);
+}

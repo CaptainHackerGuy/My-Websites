@@ -1,0 +1,18 @@
+.assignments-heading{
+    color: teal;
+    text-align: center;
+}
+
+.assignments, .social, .gc{
+    padding: 20px;
+}
+
+.social-heading{
+    color: tomato;
+    text-align: center;
+}
+
+.gc-heading{
+    color: cyan;
+    text-align: center;
+}

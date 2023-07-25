@@ -1,0 +1,148 @@
+.main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.header h2{
+    letter-spacing: 6px;
+    color: rgb(253, 82, 14);
+}
+
+.navbar-nav{
+    width: 500px;
+}
+
+.nav-item{
+    text-align: center;
+    width: 100%;
+    color: rgb(94, 91, 91);
+    font-size: 18px;
+}
+
+.header_content{
+    height: 350px;
+    background-image: url(images/ecommerce.png);
+    background-position: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header_content button{
+    margin-top: 35px;
+    padding: 5px 40px;
+    border: 4px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.products{
+    display: flex;
+    background-color: #e7e6e6;
+    padding: 35px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 100%;
+    height: 70%;
+}
+
+.products h5{
+    padding: 10px 0;
+    color: rgb(240, 75, 46);
+}
+
+button{
+    padding: 5px 30px;
+    margin-top: 15px;
+    border: 1px dashed orange;
+}
+
+.best-seller-heading{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.top-sellers{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.top-product{
+    width: 20%;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.address{
+    width: 40%;
+    padding: 20px;
+}
+
+.address h3{
+    color: darkorange;
+    padding: 10px;
+}
+
+.product-category{
+    width: 33.33%;
+    
+}
+
+.main{
+    width: 85%;
+    margin: auto;
+}
+
+.main h1{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+    color: tomato;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+.Toy{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid tomato;
+    text-align: center;
+}
+
+.all_toys{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0; 
+}
+
+.toy h3{
+    padding: 10px;
+}
